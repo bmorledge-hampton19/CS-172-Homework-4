@@ -16,11 +16,12 @@ void readIntoArray(int* anArray, int size) {
 	// Use a for loop to run through the array and assign a value for every index.
 	for (int i = 0; i < size; i++) {
 
-		cout << "Enter number " << i << ": ";
+		cout << "Enter number " << i+1 << ": ";
 		cin >> anArray[i];
-		cout << endl;
 
 	}
+
+	cout << endl;
 
 }
 
@@ -37,9 +38,9 @@ void greaterThanAverage(int* anArray, int size) {
 		arraySum += anArray[i];
 	}
 
-	// Compute and display the average.
-	average = arraySum / size;
-	cout << "The average of your array is : " << average << endl;
+	// Compute and display the average. Typecast array sum to a double to avoid integer division.
+	average = static_cast<double>(arraySum) / size;
+	cout << "The average of your array's values is : " << average << endl;
 
 	// Determine how many values are greater than the average (with a for loop) and return that number.
 
@@ -47,7 +48,7 @@ void greaterThanAverage(int* anArray, int size) {
 		if (anArray[i] > average) greaterThanAverage++;
 	}
 
-	cout << "You have " << greaterThanAverage << " numbers in your array that are greater than " << average << "." << endl << endl;
+	cout << "You have " << greaterThanAverage << " number(s) in your array that are greater than " << average << "." << endl << endl;
 
 
 }
@@ -59,7 +60,7 @@ int main() {
 	int* myArray; // The pointer for the array to be created.
 
 	// Prompt the user for the size of the array, and then allocate that size to the array.
-	cout << "How big do you want your array to be? ";
+	cout << "How many numbers do you want in your Array? ";
 	cin >> arraySize;
 	myArray = new int[arraySize];
 
