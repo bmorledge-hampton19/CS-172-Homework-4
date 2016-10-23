@@ -73,7 +73,7 @@ int main() {
 
 
 	// Print out the array's variables to make sure the doubling worked.
-	cout << "Here are the new values for your array: " << endl;
+	cout << "Here are the new values for your doubled array: " << endl;
 	for (int i = 0; i < arraySize; i++) {
 		cout << "  " << i + 1 << ": " << myArray[i] << endl;
 	}
