@@ -40,7 +40,7 @@ void greaterThanAverage(int* anArray, int size) {
 
 	// Compute and display the average. Typecast array sum to a double to avoid integer division.
 	average = static_cast<double>(arraySum) / size;
-	cout << "The average of your array's values is : " << average << endl;
+	cout << "The average of your array's value(s) is : " << average << endl;
 
 	// Determine how many values are greater than the average (with a for loop) and return that number.
 
@@ -48,7 +48,7 @@ void greaterThanAverage(int* anArray, int size) {
 		if (anArray[i] > average) greaterThanAverage++;
 	}
 
-	cout << "You have " << greaterThanAverage << " number(s) in your array that are greater than " << average << "." << endl << endl;
+	cout << "You have " << greaterThanAverage << " number(s) in your array greater than " << average << "." << endl << endl;
 
 
 }
@@ -70,10 +70,9 @@ int main() {
 	
 	// For the array, compute and display the average and how many numbers are greater than it.
 	greaterThanAverage(myArray, arraySize);
-	
 
 	// Delete memory allocated to the heap.
-	delete myArray;
+	delete[] myArray;
 	
 
 	return 0;  // End function.  Everything is ok!

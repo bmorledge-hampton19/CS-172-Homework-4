@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Homework 4", "Homework 4\Homework 4.vcxproj", "{B956363C-6286-425E-B2DA-C93FB77C61A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Analyze Input", "Homework 4\Homework 4.vcxproj", "{B956363C-6286-425E-B2DA-C93FB77C61A3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Increase Array Size", "Increase Array Sie\Increase Array Sie.vcxproj", "{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{B956363C-6286-425E-B2DA-C93FB77C61A3}.Release|x64.Build.0 = Release|x64
 		{B956363C-6286-425E-B2DA-C93FB77C61A3}.Release|x86.ActiveCfg = Release|Win32
 		{B956363C-6286-425E-B2DA-C93FB77C61A3}.Release|x86.Build.0 = Release|Win32
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Debug|x64.ActiveCfg = Debug|x64
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Debug|x64.Build.0 = Debug|x64
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Debug|x86.ActiveCfg = Debug|Win32
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Debug|x86.Build.0 = Debug|Win32
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Release|x64.ActiveCfg = Release|x64
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Release|x64.Build.0 = Release|x64
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Release|x86.ActiveCfg = Release|Win32
+		{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
