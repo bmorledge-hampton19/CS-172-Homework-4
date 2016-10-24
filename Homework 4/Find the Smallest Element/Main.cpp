@@ -15,8 +15,8 @@ using namespace std;
 int smallestElement(int* list, int listSize) {
 
 	int smallestElement = list[0]; // The smallest element that has been found so far.
-	
-	// Use a for loop to determine the smallest element.
+
+								   // Use a for loop to determine the smallest element.
 	for (int i = 1; i < listSize; i++) {
 
 		if (list[i] < smallestElement) {
@@ -39,7 +39,7 @@ int main() {
 	int* myArray = new int[8]; // Array on the heap.
 	int myArraySize = 8; // The size of the Array on the heap.
 
-	// Put the values from the book's array into myArray.  (Is this necesarry?)
+						 // Put the values from the book's array into myArray.  (Is this necesarry?)
 	for (int i = 0; i < myArraySize; i++) {
 		myArray[i] = bookArray[i];
 	}
