@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Analyze Input", "Homework 4\Homework 4.vcxproj", "{B956363C-6286-425E-B2DA-C93FB77C61A3}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Analyze Input", "Analyze Input\Homework 4.vcxproj", "{B956363C-6286-425E-B2DA-C93FB77C61A3}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Increase Array Size", "Increase Array Sie\Increase Array Sie.vcxproj", "{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Increase Array Size", "Increase Array Size\Increase Array Sie.vcxproj", "{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Find the Smallest Element", "Find the Smallest Element\Find the Smallest Element.vcxproj", "{EA3F0A9C-D7CC-42C9-A8C4-7B86B8B7C561}"
 EndProject
