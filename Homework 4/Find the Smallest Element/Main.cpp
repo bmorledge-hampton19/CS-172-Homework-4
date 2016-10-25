@@ -36,21 +36,8 @@ int main() {
 
 	int bookArray[] = { 1,2,4,5,10,100,2,-22 }; // The array of integers provided by the book.
 
-	int* myArray = new int[8]; // Array on the heap.
-	int myArraySize = 8; // The size of the Array on the heap.
-
-						 // Put the values from the book's array into myArray.  (Is this necesarry?)
-	for (int i = 0; i < myArraySize; i++) {
-		myArray[i] = bookArray[i];
-	}
-
-
 	// Display the smallest element to the screen.
-	cout << "The smallest element in your array is " << smallestElement(myArray, myArraySize) << endl;
-
-
-	// Free up memory allocated to the heap.
-	delete[] myArray;
+	cout << "The smallest element in your array is " << smallestElement(bookArray, 8) << endl;
 
 	// End function.  Everything is okay!
 	return 0;

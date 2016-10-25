@@ -15,12 +15,13 @@ using namespace std;
 
 int main() {
 
-	// Create three Rectangle2D objects as per the book's instructions.
+	// Create four Rectangle2D objects as per the book's instructions (and one of my own).
 
 	Rectangle2D* r1 = new Rectangle2D(2, 2, 5.5, 4.9);
 	Rectangle2D* r2 = new Rectangle2D(4, 5, 10.5, 3.2);
 	Rectangle2D* r3 = new Rectangle2D(3, 5, 2.3, 5.4);
 	Rectangle2D* r4 = new Rectangle2D(3, 3, 2, 2);
+
 
 	// Perform a variety of tests on the rectanbgles as instructed by the book + some of my own to double check that functions are working as expected.
 
@@ -46,9 +47,6 @@ int main() {
 	cout << "r1 overlaps r3: " << r1->overlaps(*r3) << endl;
 	cout << "r1 overlaps r4: " << r1->overlaps(*r4) << endl;
 	cout << endl;
-
-	
-	
 
 
 	// Delete memory allocated to the heap.
