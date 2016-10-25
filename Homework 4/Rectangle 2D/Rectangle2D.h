@@ -30,8 +30,8 @@ public:
 	void setY(double y);
 
 	double getWidth() const;
-	void setWidth(double width);
+	bool setWidth(double width); // Will only set positive values.  Will only return true if a value was set properly.
 
 	double getHeight() const;
-	void setHeight(double height);
+	bool setHeight(double height); // Will only set positive values.  Will only return true if a value was set properly.
 };
