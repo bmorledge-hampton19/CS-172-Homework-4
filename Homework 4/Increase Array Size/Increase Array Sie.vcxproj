@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <ProjectGuid>{44F54F5C-DFBF-4657-A0C4-72A21E0CB27F}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>IncreaseArraySie</RootNamespace>
+    <RootNamespace>Increase Array Size</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
     <ProjectName>Increase Array Size</ProjectName>
   </PropertyGroup>

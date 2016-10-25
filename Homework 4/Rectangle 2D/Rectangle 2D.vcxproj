@@ -19,11 +19,10 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{B956363C-6286-425E-B2DA-C93FB77C61A3}</ProjectGuid>
+    <ProjectGuid>{E56091B7-3CC8-4CC5-9F11-E8DFA22F335B}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>Analyze Input</RootNamespace>
+    <RootNamespace>Rectangle2D</RootNamespace>
     <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
-    <ProjectName>Analyze Input</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -144,6 +143,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Rectangle2D.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Rectangle2D.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
