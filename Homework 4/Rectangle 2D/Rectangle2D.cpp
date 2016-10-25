@@ -73,7 +73,7 @@ bool Rectangle2D::overlaps(const Rectangle2D & r) const
 	containsVertex[2] = contains(r.getX(), r.getY() + r.getHeight());
 	containsVertex[3] = contains(r.getX() + r.getWidth(), r.getY() + r.getHeight());
 
-	// If at least one of the vertices is contained by the rectangle calling the function, return true.  Else return false.
+	// If at least one of the vertices (but not all, as checked above) is contained by the rectangle calling the function, return true.  Else return false.
 	return (containsVertex[0] || containsVertex[1] || containsVertex[2] || containsVertex[3]);
 
 }
